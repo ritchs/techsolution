@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap");
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font: ;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -8,4 +11,78 @@
     --background: #ffffff;
     --foreground: #ededed;
   }
+}
+
+/* START NAVBAR */
+.navbar {
+  margin-top: 2vh;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+
+.fontNavLinks {
+  margin-right: 16px;
+  margin-left: 16px;
+  color: #025939 !important;
+  font-family: "Lunasima";
+  font-style: normal;
+}
+
+.fontNavLogo {
+  color: #025939 !important;
+  font-family: "Lunasima";
+  font-style: normal;
+}
+/* END NAVBAR */
+
+/* START SECTION 1 */
+
+.sectionOne {
+  margin-top: 10vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-top: 10vh;
+  height: 40vh;
+}
+
+.sectionOne h1 {
+  font-family: "Lunasima";
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.sectionOne p {
+  margin-top: 3vh;
+  font-family: "Lunasima";
+  font-style: normal;
+  text-align: left;
+  width: 35vw;
+}
+
+/* END SECTION 1 */
+
+/* START SECTION 2 */
+
+.sectionTwo {
+  width: 100%;
+  background-color: #2da17d;
+  transform: skewY(1deg);
+  color: white;
+}
+
+.sectionTwo .row {
+  margin-top: 5vh;
+  margin-left: 3.5vw;
+  margin-right: 4vw;
+  transform: skewY(-1deg);
+}
+
+.row {
+  padding: 5vh;
+}
+
+.row p {
+  font-size: large;
 }

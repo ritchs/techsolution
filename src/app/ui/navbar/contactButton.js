@@ -1,13 +1,14 @@
-function Contactbutton() {
+function Contactbutton(props) {
+  const { name, color, text } = props;
   const style = {
     marginLeft: "16px",
     marginRight: "16px",
-    color: "white",
-    "background-color": "#2DA17D",
+    color: text,
+    "background-color": color,
   };
   return (
     <button className="btn" style={style}>
-      <b>Contacto</b>
+      <b>{name}</b>
     </button>
   );
 }

@@ -1,6 +1,6 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Navbar from "@/app/ui/navbar/navbar";
+import Sectionone from "@/app/ui/main/sectionOne";
+import Sectiontwo from "@/app/ui/main/sectionTwo";
 
 export default function Home() {
   return (
@@ -8,7 +8,10 @@ export default function Home() {
       <header>
         <Navbar />
       </header>
-      <main></main>
+      <main>
+        <Sectionone />
+        <Sectiontwo />
+      </main>
       <footer></footer>
     </div>
   );
